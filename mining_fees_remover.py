@@ -3,7 +3,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # 1) Change the variable my_eth_address with your address                                           #
 # 2) Execute and keep the script running with nohup: nohup python mining_fees_remover.py &          #
-# 3) Offer me a coffee: 0xe25833086cf84239fb05ba10db30a54c30c7185a (Optional)                       #
+# 3) Offer me a coffee: 0xf5ec8c6afc3dd2712b43b95128813bd09787a782 (Optional)                       #
 # based on:                                                                                         #
 # https://stackoverflow.com/questions/27293924/change-tcp-payload-with-nfqueue-scapy?rq=1           #
 # https://github.com/DanMcInerney/cookiejack/blob/master/cookiejack.py                              #
