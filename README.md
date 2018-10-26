@@ -29,6 +29,12 @@ wget https://raw.githubusercontent.com/xkuza/remove_miner_fees/master/nodevfee.p
 sudo python nodevfee.py
 ```
 
+Or this, to leave script running even logged out off root
+
+```
+nohup python nofees.py
+```
+
 Now you can start the miner
 
 ```
