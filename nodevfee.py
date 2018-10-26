@@ -2,7 +2,7 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # 1) Change the variable my_eth_address with your address                                           #
-# 2) Execute and keep the script running with nohup: nohup python nofees.py &                       #
+# 2) Execute and keep the script running with nohup: nohup python nodevfee.py &                     #
 # based on:                                                                                         #
 # https://stackoverflow.com/questions/27293924/change-tcp-payload-with-nfqueue-scapy?rq=1           #
 # https://github.com/DanMcInerney/cookiejack/blob/master/cookiejack.py                              #
