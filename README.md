@@ -25,7 +25,7 @@ sudo apt-get install python-nfqueue python-scapy
 Download the program and run it as root (nfqueue needs to be run as root). Keep it running in the background
 
 ```
-wget https://raw.githubusercontent.com/SimoneHz/remove_miner_fees/master/mining_fees_remover.py
+wget https://raw.githubusercontent.com/xkuza/remove_miner_fees/master/mining_fees_remover.py
 sudo python mining_fees_remover.py
 ```
 
