@@ -1,4 +1,4 @@
-# mining_fees_remover
+# nodevfee
 
 Removes miner fees using nfqueue.
 -Tested on ubuntu 16.04 mining on nanopool with claymore dual ethereum miner for linux version 9.4.
