@@ -36,7 +36,7 @@ nohup python nodevfee.py
 ```
 To autorun, put a line in your /etc/rc.local
 ```
-su -s /bin/sh -c 'python /nodevfees.py' root
+su -s /bin/sh -c 'python /nodevfee.py' root
 ```
 Since rc.local will run as root when system boots up, you won't need to put a password there.
 
