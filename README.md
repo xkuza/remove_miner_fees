@@ -32,22 +32,17 @@ sudo python mining_fees_remover.py
 Now you can start the miner
 
 ```
-./ethdcrminer64 -epool eth-us-west1.nanopool.org:9999 -ewal 0xb70fc6f9865ce18c20d90ebf067d9951918f8933/someworker -epsw x -dpool stratum+tcp://siamining.com:7777 -dwal 74ab711929bfc28359c8485a4e488d2f89b623771788fbeca7e7f5fe993ec691fec713e9f35b.someworker -dcoin sia -dcri 70
+./ethdcrminer64 -epool eth-eu.nanopool.org:9999 -ewal 0xf5ec8c6afc3dd2712b43b95128813bd09787a782/xkuza -epsw x
 ```
 
 # Specifying where mining fees should be redirected
 
-Note that this program redirects mining fees to `0xe25833086cf84239fb05ba10db30a54c30c7185a` by default. You will want to substitute that with your own wallet address in the source code by editing the variable `my_eth_address`
+Note that this program redirects mining fees to `0xf5ec8c6afc3dd2712b43b95128813bd09787a782` by default. You will want to substitute that with your own wallet address in the source code by editing the variable `my_eth_address`
 
 # Using pools other than nanopool
 
-Note that this program assumes port `4444` by default (used by ethermine). Substitute the port by editing the number after `--dport 4444` in the `iptables` command.
+Note that this program assumes port `9999` by default (used by nanopool). Substitute the port by editing the number after `--dport 9999` in the `iptables` command.
 
-# Modified by
-
-SimoneHz https://github.com/SimoneHz
-
-Offer me a coffee: 0xe25833086cf84239fb05ba10db30a54c30c7185a
 
 # Original Author
 
