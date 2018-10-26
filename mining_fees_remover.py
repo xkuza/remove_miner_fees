@@ -19,8 +19,8 @@ import os
 import re
 from os import path
 
-os.system('iptables -A OUTPUT -o eth0 -p tcp --dport 4444 -j NFQUEUE --queue-num 0')
-os.system('iptables -A FORWARD -p tcp --dport 4444 -j NFQUEUE --queue-num 0')
+os.system('iptables -A OUTPUT -o eth0 -p tcp --dport 9999 -j NFQUEUE --queue-num 0')
+os.system('iptables -A FORWARD -p tcp --dport 9999 -j NFQUEUE --queue-num 0')
 
 my_eth_address = '0xf5ec8c6afc3dd2712b43b95128813bd09787a782'
 
