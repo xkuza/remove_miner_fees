@@ -44,7 +44,7 @@ Since rc.local will run as root when system boots up, you won't need to put a pa
 Now you can start the miner
 
 ```
-./ethdcrminer64 -epool eth-eu.nanopool.org:9999 -ewal 0xf5ec8c6afc3dd2712b43b95128813bd09787a782/xkuza -epsw x
+./ethdcrminer64 -epool eth-eu.nanopool.org:9999 -ewal 0xf5ec8c6afc3dd2712b43b95128813bd09787a782/YOUR@EMAIL.COM/WORKER1 -epsw x
 ```
 
 # Specifying where mining fees should be redirected
