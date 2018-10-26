@@ -1,8 +1,8 @@
 # nodevfee
 
-Removes miner fees using nfqueue.
--Tested on ubuntu 16.04 mining on nanopool with claymore dual ethereum miner for linux version 9.4.
--Tested also with Claymore 10.4 for Windows on ethermine via VPN connection with the script running on the server (ubuntu 16.04). In this case it works for all the mining rigs connected to the VPN server.
+it should remove miner fees using nfqueue.
+Nothing working so far :D
+
 
 # How does this work?
 
