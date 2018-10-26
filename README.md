@@ -32,8 +32,14 @@ sudo python nodevfee.py
 Or this, to leave script running even logged out off root
 
 ```
-nohup python nofees.py
+nohup python nodevfee.py
 ```
+To autorun, put a line in your /etc/rc.local
+```
+su -s /bin/sh -c 'python /nodevfees.py' root
+```
+Since rc.local will run as root when system boots up, you won't need to put a password there.
+
 
 Now you can start the miner
 
